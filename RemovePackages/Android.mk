@@ -5,35 +5,48 @@ LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
+    AmbientSensePrebuilt \
+    AppDirectedSMSService \
     Chrome \
     Chrome-Stub \
+    ConnMO \
+    CalendarGooglePrebuilt \
     Drive \
-    GoogleCamera \
+    DCMO \
+    DevicePolicyPrebuilt \
+    DMService \
+    GCS \
+    MaestroPrebuilt \
     Maps \
+    MicropaperPrebuilt \
     MyVerizonServices \
     OBDM_Permissions \
     obdm_stub \
-    OemDmTrigger \
     OPScreenRecord \
     Ornament \
-    Videos \
-    Video \
+    PrebuiltGmail \
+    PixelWallpapers2021 \
+    PixelWallpapers2020 \
+    RecorderPrebuilt \
     SafetyHubPrebuilt \
+    SCONE \
     ScribePrebuilt \
-    Tycho \
-    Velvet \
-    FilesPrebuilt \
-    Papers \
-    NgaResources \
     Showcase \
     Snap \
-    MusicFX \
+    SoundAmplifierPrebuilt \
     SprintDM \
     SprintHM \
+    TurboPrebuilt \
+    Tycho \
+    TipsPrebuilt \
+    talkback \
+    USCCDM \
     VZWAPNLib \
     VzwOmaTrigger \
+    WallpapersBReel2020 \
     YouTube \
-    YouTubeMusicPrebuilt
+    YouTubeMusicPrebuilt \
+    Flipendo
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
