@@ -12,7 +12,7 @@ echo ""
 # Kernel
 echo "cloning kernel and clang"
 git clone https://github.com/EmanuelCN/kernel_xiaomi_sm8250 -b staging kernel/xiaomi/alioth
-git clone --depth=1 https://gitlab.com/Roxor-007/WeebX_clang16.git prebuilts/clang/host/linux-x86/clang-WeebX
+git clone --depth=1 https://github.com/EmanuelCN/zyc_clang-14 prebuilts/clang/host/linux-x86/clang-zyc
 echo ""
 
 # Leica Camera
